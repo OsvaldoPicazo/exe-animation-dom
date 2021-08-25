@@ -148,7 +148,7 @@ function checkGameOver() {
 
 // increase or decrease player speed when pressing the arrow keys = move
 // add listener to the handler "keydown" in the whole document
-// key down keeps invocking the callback function as long as the key kept down
+// key down keeps invoking the callback function as long as the key kept down
 document.addEventListener('keydown', (e) => {
     switch (e.keyCode) {
         case 38: // up arrow
